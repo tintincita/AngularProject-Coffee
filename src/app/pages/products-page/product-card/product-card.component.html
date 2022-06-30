@@ -19,7 +19,7 @@
     <h6 class="card-subtitle">
       Annee: {{ filmInfo.annee }}
     </h6>
-    <p class="card-text">{{ filmInfo.synopsis | slice: 1:200 }} ...</p>
+    <p class="card-text">{{ filmInfo.synopsis | slice: 0:200 }} ...</p>
     <!-- Synopsis: {{ filmInfo.synopsis }} -->
   </div>
 </div>
@@ -44,6 +44,6 @@
     <h6 class=".card-subtitle">
       Annee: {{ albumInfo.annee }}
     </h6>
-    <p class="card-text">{{ albumInfo.details | slice: 1:200 }} ...</p>
+    <p class="card-text">{{ albumInfo.details | slice: 0:200 }} ...</p>
   </div>
 </div>

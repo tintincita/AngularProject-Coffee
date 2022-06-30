@@ -1,11 +1,12 @@
-<div class="card-deck-wrapper">
+<div class="card-deck">
 <div *ngFor="let film of filmInfo">
   <app-product-card [filmInfo]='film'></app-product-card>
 </div>
 </div>
 
-
+<div class="card-deck">
   <div *ngFor="let album of albumInfo">
     <app-product-card [albumInfo]='album'></app-product-card>
   </div>
+</div>
 
